@@ -4,32 +4,39 @@
     
     <url>
     
-      <loc>https://almozt.github.io/post/</loc>
-      <lastmod>2018-10-14T02:15:45+01:00</lastmod>
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://almozt.github.io/publication/</loc>
-      <lastmod>2018-10-14T02:15:45+01:00</lastmod>
+      <loc>/publication/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://almozt.github.io/talk/</loc>
-      <lastmod>2018-10-14T02:15:45+01:00</lastmod>
+      <loc>/talk/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://almozt.github.io/</loc>
-      <lastmod>2018-10-01T00:16:12+01:00</lastmod>
+      <loc>/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2016-04-20T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -37,7 +44,7 @@
     
     <url>
     
-      <loc>https://almozt.github.io/categories/</loc>
+      <loc>/author/</loc>
       <priority>0</priority>
     </url>
     
@@ -45,7 +52,7 @@
     
     <url>
     
-      <loc>https://almozt.github.io/publication_types/</loc>
+      <loc>/authors/</loc>
       <priority>0</priority>
     </url>
     
@@ -53,7 +60,23 @@
     
     <url>
     
-      <loc>https://almozt.github.io/tags/</loc>
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/</loc>
       <priority>0</priority>
     </url>
     

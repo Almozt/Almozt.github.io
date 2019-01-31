@@ -7,15 +7,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 3.3.0">
   <meta name="generator" content="Hugo 0.53" />
-  <meta name="author" content="Alberto Ramirez">
+
+  
 
   
   
   
   
+  
+    
+    
     
   
-  <meta name="description" content="Almozt CV">
+  
+
+  <meta name="author" content="Alberto ramirez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Developer consultant In Capgemini México">
 
   
   <link rel="alternate" hreflang="en-us" href="">
@@ -81,11 +94,25 @@
 
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-87936811-2', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
-  <link rel="alternate" href="https://almozt.github.io/index.xml" type="application/rss+xml" title="Almozt">
-  <link rel="feed" href="https://almozt.github.io/index.xml" type="application/rss+xml" title="Almozt">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Academic">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Academic">
   
 
   <link rel="manifest" href="/site.webmanifest">
@@ -99,16 +126,14 @@
   
   
     
+    
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
-  <meta property="twitter:site" content="">
-  <meta property="twitter:creator" content="">
-  
-  <meta property="og:site_name" content="Almozt">
+  <meta property="og:site_name" content="Academic">
   <meta property="og:url" content="">
-  <meta property="og:title" content="404 Page not found | Almozt">
-  <meta property="og:description" content="Almozt CV"><meta property="og:image" content="https://almozt.github.io/img/me.jpg">
+  <meta property="og:title" content="404 Page not found | Academic">
+  <meta property="og:description" content="Developer consultant In Capgemini México"><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   
@@ -118,7 +143,7 @@
 
   
 
-  <title>404 Page not found | Angelorum</title>
+  <title>404 Page not found | Academic</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -137,7 +162,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -157,7 +183,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Almozt</a>
+      <a class="navbar-brand" href="/">Academic</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -170,7 +196,7 @@
 
       
       
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         
 
         
@@ -201,25 +227,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#experience">
-            
-            <span>Experience</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/#contact">
             
             <span>Contact</span>
@@ -230,29 +237,17 @@
         
         
 
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/files/CV-EN.pdf">
-            
-            <span>CV</span>
-            
-          </a>
-        </li>
-
-        
-        
-
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
       
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -292,7 +287,7 @@
   
 
   <p class="powered-by">
-    &copy; 2019 &middot; 
+    
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -375,29 +370,63 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
     
     
+      
     
     
     
-    <script src="/js/academic.min.70f0041f5a24c6a675ac218c98d7ef71.js"></script>
-
     
+    <script src="/js/academic.min.07fbebbbf71b021c8836e1d7ecffa489.js"></script>
 
   </body>
 </html>
